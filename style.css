@@ -128,6 +128,32 @@ nav{
     line-height:1.4;
 }
 
+
+.project-card{
+    text-decoration:none;
+    color:black;
+    display:block;
+    text-align:center;
+}
+
+.project-card img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.project-card:hover img{
+    transform:scale(1.03);
+}
+
+.project-card:hover h3{
+    opacity:.7;
+}
+
+
+
+
 /* MOBILE */
 
 @media (max-width:900px){
