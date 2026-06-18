@@ -152,6 +152,116 @@ nav{
 }
 
 
+/* Navigation */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:40px 60px;
+}
+
+.logo{
+    text-decoration:none;
+    color:black;
+    font-size:2.5rem;
+}
+
+.nav-links{
+    display:flex;
+    gap:35px;
+}
+
+.nav-links a{
+    color:black;
+    text-decoration:none;
+    letter-spacing:1px;
+}
+
+/* Hero */
+
+.project-hero{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+    gap:120px;
+
+    padding:70px 60px 100px;
+}
+
+.left h1{
+
+    font-size:5rem;
+    font-weight:300;
+
+    margin-bottom:60px;
+
+}
+
+.info{
+
+    margin-bottom:45px;
+
+}
+
+.info h4{
+
+    margin-bottom:8px;
+    font-weight:500;
+
+}
+
+.info p{
+
+    font-family:'Cormorant Garamond', serif;
+    font-size:1.4rem;
+
+}
+
+.right{
+
+    display:flex;
+    align-items:center;
+
+}
+
+.right p{
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:2rem;
+
+    line-height:1.6;
+
+}
+
+/* Gallery */
+
+.gallery{
+
+    width:95%;
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    padding-bottom:80px;
+
+}
+
+.gallery img{
+
+    width:100%;
+    display:block;
+
+}
+
+
 
 
 /* MOBILE */
